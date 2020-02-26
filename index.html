@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<style type="text/css">
+    .required label:after
+    {
+        content: "*";
+        color: red;
+    }
+    a{
+        text-decoration: none;
+    }
+</style> 
+<script src="/myCompiledOutput/assignment.js"></script>
+</head> 
+   
+<body>
+<h1> REGISTRATION FORM </h1>           
+<form action=""> 
+   <div class="required">
+    <label>Student Name:</label><br>
+    <input type="text" id="Name" onkeypress="return (event.charCode > 64 && 
+    event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required><br><br> 
+    <label>Age:</label><br>
+    <input type="number" id="age" required><br><br>  
+    <label>Class:</label><br>
+     <input type="text" id="class" onkeypress="return (event.charCode > 64 && 
+     event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required><br><br> 
+    <label>Favourite Subject:</label><br>
+    <input type="text" id="Subject" onkeypress="return (event.charCode > 64 && 
+    event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required><br><br> 
+    <label>School Name:</label><br>
+    <input type="text"  id="School" onkeypress="return (event.charCode > 64 && 
+    event.charCode < 91) || (event.charCode > 96 && event.charCode < 123)" required><br><br>     
+    <input type="submit" value="Submit" name="Submit" id="submit_btn" onclick="add()"> &nbsp;&nbsp;
+    <button><a href="search.html">Search</a></button>
+    </div>
+          
+</form> 
+</body> 
+</html>  

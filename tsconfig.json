@@ -1,0 +1,13 @@
+{
+  "compilerOptions":
+   {
+    "target": "es5", 
+    "outDir": "myCompiledOutput",                      
+     "sourceMap": true,              
+    "strict": true,                           
+    "noImplicitAny": true,                 
+    "strictNullChecks": false,              
+    "forceConsistentCasingInFileNames": true,
+    "watch": true
+  }
+}
